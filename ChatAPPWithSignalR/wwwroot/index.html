@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ChatAPPWithSignalR</title>
+    <link href="css/Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Chat Application
+        </div>
+        <div class="message-section" id="messageSection">
+
+        </div>
+        <div class="input-section">
+            <input type="text" class="input" id="txtMessage" placeholder="Enter Your Message" />
+            <button class="btn" id="btnSend">Send</button>
+            <input type="file" id="fileInput" accept="image/*, .pdf, .doc, .txt" />
+            <button class="btn" id="btnSendFile">Send</button>
+        </div>
+    </div>
+    <script src="lib/microsoft/signalr/dist/browser/signalr.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>

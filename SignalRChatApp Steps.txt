@@ -1,0 +1,7 @@
+** Create folder hubs => Create chathub.cs
+** =>Program.cs & Configure
+** wwwroot=> lib=> add=> Add Client-Side Library=> provider: unpkg=> Library: @microsoft/signalr@6.0.6=> signalr.js
+   wwwroot=> add=> New Item=> index.html
+   wwwroot=> css=> add=> New Item=> Style.css
+   wwwroot=> js=> add=> New Item=> chat.js
+** =>index.html =>Style.css =>chat.js

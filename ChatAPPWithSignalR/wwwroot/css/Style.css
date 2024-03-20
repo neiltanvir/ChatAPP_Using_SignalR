@@ -1,0 +1,122 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    text-align: center;
+    font-size: 28px;
+    padding: 5px 10px;
+    background-color: #075e94;
+    color: white;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.message-section {
+    border: none;
+    border-radius: 10px;
+    height: 500px;
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.msg-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 60%;
+    font-size: 16px;
+    padding: 10px;
+    word-break: break-all;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.received {
+    float: left;
+    background-color: lightsteelblue;
+    align-self: flex-start;
+}
+
+.send {
+    float: right;
+    background-color: whitesmoke;
+    align-self: flex-end;
+    color: black;
+}
+
+.input-section {
+    border: none;
+    border-radius: 10px;
+    height: auto;
+    width: 90%;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.input {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #075e94;
+    color: white;
+    cursor: pointer;
+}
+
+.file-preview {
+    max-width: 100%;
+    max-height: 200px;
+}
